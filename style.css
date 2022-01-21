@@ -90,6 +90,11 @@ a:hover {
     right: 0;
 }
 
+.blackbackground{
+    background-color: #000000;
+    padding: 10px 5px;
+}
+
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
@@ -677,7 +682,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 13px;
 }
 
 .tight-width-whitespace {
@@ -704,12 +709,12 @@ p {
     margin: auto auto auto auto;
 }
 
-h2 {
+h3 {
     font-size: 22px;
     line-height: 1.4em;
 }
 
-h3 {
+h2 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
@@ -728,6 +733,15 @@ h1 {
 
 h4 {
     color: #333333!important;
+}
+
+.newh4 {
+    color: #F3976C;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .icons {
