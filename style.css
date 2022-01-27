@@ -91,8 +91,8 @@ a:hover {
 }
 
 .blackbackground{
-    background-color: #000000;
     padding: 10px 5px;
+    margin: auto;
 }
 
 .texture-paper::before {
@@ -370,11 +370,16 @@ a:hover {
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
-        top: 50%;
-        right: 20px;
+        top: 30%;
+        right: 140px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
+
+    .nav > li {
+        margin-left: 27px;
+    }
+
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
         color: #484848;
@@ -442,7 +447,7 @@ nav .caret {
 
 .mg-md {
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .mg-lg {
@@ -513,6 +518,10 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+}
+
+.form-group {
+    padding-bottom: 20px;
 }
 
 .scrollToTop {
@@ -687,7 +696,6 @@ p {
 
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto auto auto auto;
 }
 
 .h1 {
@@ -727,6 +735,7 @@ h2 {
     box-shadow: 0px 0px 0px #000000;
 }
 
+
 h1 {
     color: #333333!important;
 }
@@ -736,13 +745,14 @@ h4 {
 }
 
 .newh4 {
-    color: #F3976C;
+    color: black;
     font-size: 20px;
     text-transform: uppercase;
-    background-color: black;
+    background-color: #F3976C;
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
 
 .icons {
     margin-bottom: 14px;
@@ -758,8 +768,8 @@ h4 {
 }
 
 .portfolio-row {
-    margin-bottom: 44px;
-    margin-top: 50px;
+    margin: auto;
+    padding-top: 40px;
 }
 
 .avatar {
@@ -789,6 +799,10 @@ h4 {
 }
 
 .tc-white {
+    color: #333333!important;
+}
+
+.pink {
     color: #F3976C!important;
 }
 
@@ -832,7 +846,7 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/image-assombri.png");
 }
 
 .bg-presentation {
