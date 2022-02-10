@@ -367,6 +367,14 @@ a:hover {
     z-index: 2;
 }
 
+.text-center.hero-bloc-text.tc-white {
+    text-align: center;
+}
+
+.text-center.mg-lg.tc-white.tight-width-whitespace {
+    text-align: center;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -694,9 +702,7 @@ p {
     font-size: 13px;
 }
 
-.tight-width-whitespace {
-    max-width: 600px;
-}
+
 
 .h1 {
     font-size: 20px;
@@ -751,6 +757,14 @@ h4 {
     background-color: #F3976C;
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+#form_1 {
+    text-align: center;
+}
+
+.contact-mail {
+    text-align: center;
 }
 
 
@@ -853,6 +867,14 @@ h4 {
     background-image: url("img/image-de-presentation.png");
 }
 
+.text-center.hero-bloc-text.tc-white {
+    text-align: center;
+}
+
+.text-center.mg-lg.tc-white.tight-width-whitespace {
+    text-align: center;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -865,6 +887,14 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+
+    .text-center.hero-bloc-text.tc-white {
+    text-align: center;
+}
+
+.text-center.mg-lg.tc-white.tight-width-whitespace {
+    text-align: center;
+}
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
@@ -874,6 +904,14 @@ h4 {
     .nav-center.navbar .nav {
         max-width: 100%
     }
+
+    .text-center.hero-bloc-text.tc-white {
+    text-align: center;
+}
+
+.text-center.mg-lg.tc-white.tight-width-whitespace {
+    text-align: center;
+}
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
@@ -900,10 +938,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -912,9 +947,15 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
+
+    .text-center.hero-bloc-text.tc-white {
+    text-align: center;
+}
+
+.text-center.mg-lg.tc-white.tight-width-whitespace {
+    text-align: center;
+}
 }
 
 @media (max-width: 767px) {
